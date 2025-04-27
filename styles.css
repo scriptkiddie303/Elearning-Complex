@@ -1,0 +1,118 @@
+/* color scheme : 
+#0d1b2a 
+#1b263b 
+#415a77
+#778da9
+#e0e1dd */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar {
+    height: 100px;
+    background-color: #0d1b2a;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+}
+
+#logo {
+    margin: 0px 0px 0px 0rem;
+    position: relative;
+    left: 20rem;
+    text-decoration: none;
+}
+
+#links {
+    display: flex;
+}
+
+#ulist {
+    list-style-type: none;
+    display: flex;
+    height: 100px;
+    font-size: 1.2rem;
+    align-items: center;
+}
+
+.navlists {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.anav {
+    text-decoration: none;
+    color: white;
+    margin: 0px 15px 0px;
+}
+
+.navlists:hover {
+    background-color: #415a77
+}
+
+
+
+#search-box {
+    position: relative;
+    right: 20rem;
+    margin: 0px;
+}
+
+#search {
+    height: 1.7rem;
+    border-radius: 3px 0px 0px 3px;
+    border-style: none;
+    padding: 0px 3px;
+    background-color: rgb(232, 241, 240);
+
+}
+
+#search-button {
+    height: 1.7rem;
+    border-radius: 0px 3px 3px 0px;
+    border-style: none;
+    width: 1.7rem;
+    background-color: rgb(177, 190, 189);
+}
+
+/* #search-button:hover {
+    background-color: rgb(128, 138, 137);
+
+} */
+
+#search-button:active {
+    background-color: rgb(128, 138, 137);
+
+}
+
+#search:focus {
+    outline: none;
+}
+
+
+
+
+#hero-area {
+    background-image: linear-gradient(rgba(94, 92, 92, 0.5), rgba(0, 0, 0, 0.9)), url(images/hero-image.jpeg);
+    height: 53.58rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#hero-text {
+    color: white;
+    text-align: center;
+}
